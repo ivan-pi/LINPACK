@@ -22,3 +22,12 @@ supercomputers.
 **Users' Guide:**
 
 > Dongarra, J. J., Moler, C. B., Bunch, J. R., & Stewart, G. W. (1979). *LINPACK users' guide*. Society for Industrial and Applied Mathematics. https://doi.org/10.1137/1.9781611971811
+
+## fpm usage
+
+To use LINPACK within your `fpm` project, add the following to your package manifest file (`fpm.toml`):
+
+```toml
+[dependencies]
+LINPACK = { git = "https://github.com/ivan-pi/LINPACK.git" }
+```
