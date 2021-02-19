@@ -2,8 +2,10 @@ name = "LINPACK"
 author = ["Jack Dongarra", "Jim Bunch", "Cleve Moler", "Pete Stewart"]
 homepage = "http://www.netlib.org/linpack/"
 keywords = ["linear", "algebra", "equations", "least-squares"]
-description = "LINPACK is a collection of Fortran subroutines that analyze and
-solve linear equations and linear least-squares problems."
+description = "LINPACK is a collection of Fortran subroutines that analyze and solve linear equations and linear least-squares problems."
 
 [library]
 source-dir = "src"
+
+[build]
+auto-tests = true
